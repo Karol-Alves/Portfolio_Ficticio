@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #6096B4;
+    --cor-secundaria: #EEE9DA;
+    --cor-terciaria: #93BFCF;
+    --cor-hover: #BDCDD6;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--font-secundaria);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link {
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cabecalho_menu_link:hover {
+    font-size: 1.7rem;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao_conteudo_titulo {
+    font-size:  2,25rem;
+    font-family: var(--fonte-primaria);
+}
+
+.textBlue {
+    color: var(--cor-terciaria);
+}
+
+.apresentacao_conteudo_texto {
+    font-size: 1.12rem;
+    font-family: var(--font-secundaria);
+}
+
+.imagem_body {
+    padding-left: 3%;
+}
+
+
+.botao-redes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.texto-redes {
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    border-radius: 8px;
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+}
+
+.texto-redes:hover {
+    width: 390px;
+}
+
+.apresentacao_links_subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.37rem;
+}
+
+.rodape {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--font-secundaria);
+    font-weight: 400px;
+}
+
+/*Página do Currículo*/
+
+.pagina-curriculo {
+    box-sizing: border-box;
+    font-family: var(--font-secundaria);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.titulo-nome {
+    font-family: var(--fonte-primaria);
+    font-size: 1.62rem;
+    color: var(--cor-secundaria);
+    padding: 2% 0% 0.5% 16%;
+}
+
+.subtitulos {
+    font-size: 1.37rem;
+    color: var(--cor-terciaria);
+    padding: 0.5% 0% 0.5% 16%;
+}
+
+.contatos-curriculo {
+    font-size: 1rem;
+    color: var(--cor-secundaria);
+    padding: 0.5% 0% 0.5% 16.5%;
+    list-style: none;
+}
+
+.botao-curriculo {
+    display: flex;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 10px 0;
+    justify-content: center;
+    width: 150px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.botao-curriculo:hover {
+    width: 170px;
+}
+
+.textos-curriculo {
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    padding: 0.5% 0% 0.5% 16.5%;
+}
+
+.empresas {
+    color: var(--cor-terciaria);
+    font-size: 1.07rem;
+    padding: 0.5% 0.5% 1% 16.5%;
+}
+
+.experiencias {
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    padding: 0.5% 1% 0.5% 18%;
+    list-style: none;
+}
+
+.lista-itens {
+    line-height: 1.75rem;
+}
+
+.textos-curriculo-experiencias {
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    padding: 0.5% 0% 0.5% 1%;
+}
+
+.faculdade {
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    padding: 0.5% 1% 0.5% 18%;
+    list-style: none;
+}
+
+.textos-curriculo-alura {
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    padding: 0.5% 0% 0.5% 16.5%;
+}
+
+.botao-curriculo-cursos {
+    display: flex;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 20px 10px;
+    justify-content: center;
+    width: 150px;
+    text-decoration: none;
+    margin-left: 16.5%;
+}
+
+.botao-curriculo-cursos:hover {
+    width: 170px;
+}
+
+.imagem-alura {
+    width: 15%;
+    height: 15%;
+}
+
+.alura-extracurricular {
+    padding: 0% 0% 3% 0%;
+}
