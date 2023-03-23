@@ -28,7 +28,7 @@ body {
 
 .cabecalho_menu {
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .cabecalho_menu_link {
@@ -48,10 +48,11 @@ body {
     justify-content: space-between;
     display: flex;
     align-items: center;
+    gap: 82px;
 }
 
 .apresentacao_conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -71,12 +72,7 @@ body {
     font-family: var(--font-secundaria);
 }
 
-.imagem_body {
-    padding-left: 3%;
-}
-
-
-.botao-redes {
+.redes {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -84,11 +80,11 @@ body {
     gap: 32px;
 }
 
-.texto-redes {
+.botao-redes {
     display: flex;
     justify-content: center;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -99,14 +95,19 @@ body {
     padding: 21.5px 0;
 }
 
-.texto-redes:hover {
-    width: 390px;
+.botao-redes:hover {
+    width: 60%;
 }
 
 .apresentacao_links_subtitulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.37rem;
+}
+
+.imagem_body{
+   width: 50%;
+   padding-left: 3%;
 }
 
 .rodape {
@@ -163,7 +164,7 @@ body {
 }
 
 .botao-curriculo:hover {
-    width: 170px;
+    width: 160px;
 }
 
 .textos-curriculo {
@@ -234,4 +235,29 @@ body {
 
 .alura-extracurricular {
     padding: 0% 0% 3% 0%;
+}
+
+/*Para mobile*/
+
+@media (max-width:1200px){
+    .cabecalho {
+        padding: 10%;
+    }
+    .cabecalho_menu{
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao_conteudo{
+        width: auto;
+    }
+
+    /*Página currículo*/
+
+    
+
 }
