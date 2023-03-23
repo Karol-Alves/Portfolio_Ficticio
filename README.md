@@ -3,7 +3,7 @@
 
 <p>Olá, bem-vindos ao meu Portfólio (fictício) para estudos na plataforma Alura.</p>
 
-<a href="https://ibb.co/6Rj04S5"><img src="https://i.ibb.co/gMkZD8C/Sem-t-tulo.png" alt="Sem-t-tulo" border="0"></a>
+<a href="https://ibb.co/1zhtfgv"><img src="https://i.ibb.co/Z2tp6jL/Sem-t-tulo.png" alt="Sem-t-tulo" border="0"></a>
 
 <h2>Linguagens utilizadas para desenvolver:<h2>
 <ul>
