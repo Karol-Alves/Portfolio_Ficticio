@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #6096B4;
-    --cor-secundaria: #EEE9DA;
-    --cor-terciaria: #93BFCF;
-    --cor-hover: #BDCDD6;
+    --cor-primaria: #245953;
+    --cor-secundaria: #D8D8D8;
+    --cor-terciaria: #408E91;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
@@ -96,7 +95,7 @@ body {
 }
 
 .botao-redes:hover {
-    width: 60%;
+    width: 55%;
 }
 
 .apresentacao_links_subtitulo {
@@ -164,7 +163,7 @@ body {
 }
 
 .botao-curriculo:hover {
-    width: 160px;
+    width: 155px;
 }
 
 .textos-curriculo {
@@ -225,7 +224,7 @@ body {
 }
 
 .botao-curriculo-cursos:hover {
-    width: 170px;
+    width: 160px;
 }
 
 .imagem-alura {
